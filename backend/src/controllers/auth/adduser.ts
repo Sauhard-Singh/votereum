@@ -15,7 +15,7 @@ const UsersSchema = new mongoose.Schema({
 const UsersModel = mongoose.models.UsersInfo || mongoose.model("UsersInfo", UsersSchema);
 
 // Connect to MongoDB using Mongoose
-mongoose.connect("mongodb+srv://sauhardsingh093:sauhard123@cluster0.80i3huf.mongodb.net/label");  // r  // replace with your mongo uri string
+mongoose.connect("//your mongouri");  // r  // replace with your mongo uri string
 
 export default async (req: Request, res: Response) => {
   try {
