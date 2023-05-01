@@ -25,7 +25,7 @@ const userSchema = new mongoose.Schema<User>({
 
 const userLoginModel = mongoose.models.User || mongoose.model<User>("User", userSchema);
 
-mongoose.connect("mongodb+srv://sauhardsingh093:sauhard123@cluster0.80i3huf.mongodb.net/label");  // replace with your mongouri
+mongoose.connect(""//your mongouri"");  // replace with your mongouri
 
 const schema = yup.object().shape({
   body: yup.object().shape({
