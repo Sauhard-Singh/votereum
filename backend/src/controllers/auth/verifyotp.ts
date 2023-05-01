@@ -12,7 +12,7 @@ const OtpverifySchema = new mongoose.Schema({
 const OtpverifyModel = mongoose.models.Otp || mongoose.model("Otp", OtpverifySchema);
 
 // Connect to MongoDB using Mongoose
-mongoose.connect("mongodb+srv://sauhardsingh093:sauhard123@cluster0.80i3huf.mongodb.net/label");// replace with your mongo uri string
+mongoose.connect(""//your mongouri"");// replace with your mongo uri string
 
 export default async (req: Request, res: Response) => {
   try {
